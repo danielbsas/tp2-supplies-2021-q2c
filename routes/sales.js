@@ -7,4 +7,6 @@ router.get('/', async (req, res) => {
     res.json(await controller.getSales());
 });
 
+
+//modificacion
 module.exports = router;
